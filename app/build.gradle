@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.mpisgroup.teacherhrpayroll'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.mpisgroup.teacherhrpayroll'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
